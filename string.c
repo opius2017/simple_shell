@@ -72,7 +72,9 @@ char *_strcat(char *dest, char *src)
 		*dest++ = *src++;
 	*dest = *src;
 	return (ret);
-}#include "shell.h"
+}
+
+#include "shell.h"
 
 /**
  * _strlen - returns the length of a string
